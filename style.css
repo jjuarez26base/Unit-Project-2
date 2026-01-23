@@ -485,6 +485,12 @@
     }
 }
 
+.rectangle-block.is-flipped .button-link{
+    display: flex;
+    transition: 1.1s;
+    transform: rotateY(180deg) scale(1);
+}
+
 @media (min-width: 1401px) {
     .align-rectangles {
         display: flex;
@@ -546,6 +552,10 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    position: absolute;
+    bottom: 0;
+    transform: rotateY(180deg) scale(0.0);
+    transition: 0.5s;
 }
 
 .box {
