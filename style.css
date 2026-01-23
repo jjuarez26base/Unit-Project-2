@@ -1,3 +1,4 @@
+
 .background {
     background-color: #14002D;
 }
@@ -355,8 +356,9 @@
     }
 }
 
-
-
+.rectangle-block:hover {
+    transform: scale(1.1);
+}
 
 .projects {
     display: flex;
@@ -402,8 +404,9 @@
     }
 
     .rectangle-block.is-flipped {
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) scale(1.1);
     }
+
 }
 
 @media (min-width:901px) and (max-width: 956px) {
@@ -423,7 +426,7 @@
     }
 
     .rectangle-block.is-flipped {
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) scale(1.1);
     }
 }
 
@@ -444,7 +447,7 @@
     }
 
     .rectangle-block.is-flipped {
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) scale(1.1);
     }
 }
 
@@ -471,7 +474,7 @@
     }
 
     .rectangle-block.is-flipped {
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) scale(1.1);
     }
 
     .project-images {
@@ -514,7 +517,7 @@
     }
     
     .rectangle-block.is-flipped {
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) scale(1.1);
     }
 }
 
@@ -535,7 +538,7 @@
     }
     
     .rectangle-block.is-flipped {
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) scale(1.1);
     }
 }
 
